@@ -1,3 +1,4 @@
+/* Index.html banner */
 #banner-container {
     position: relative;
 }
@@ -30,7 +31,6 @@
 }
 
 /* Color */
-
 .bg-mpink {
     background-color: #ee6e73 !important;
 }
