@@ -259,18 +259,49 @@
                 </div>
             </div>
     </div>
+        
         <div class="container text-center mt-5 mb-5">
-            <button class="btn bg-mpink">Save</button>
-            <button class="btn bg-mpblue">Generate</button>
+            <div class="btn-group" role="group" aria-label="Basic example">
+  <button type="button" class="btn bg-mpink white-text">Favorite</button>
+  <button type="button" class="btn bg-mpblue white-text">Generate</button>
+  <button type="button" class="btn bg-mgreen white-text">Save</button>
 </div>
-        <div class="container">
-        <form class="form">
-        <div class="form-group">
-            <label for="search">Search</label>
-    <input type="text" class="form-control" id="search" aria-describedby="search" placeholder="Search a meal">
-    </div>  
-        </form>
+</div>
+        <div class="container mt-5 mb-5">
+        <form>
+  <div class="form-row">
+    <div class="col-3">
+      <label class="sr-only" for="search">Search</label>
+      <input type="text" class="form-control mb-2" id="search" placeholder="Search a meal">
+    </div>
+    <div class="col-2">
+      <label class="sr-only" for="budget">Budget</label>
+      <div class="input-group mb-2">
+        <div class="input-group-prepend">
+          <div class="input-group-text">$</div>
         </div>
+        <input type="text" class="form-control" id="budget" placeholder="Budget">
+      </div>
+    </div>
+    <div class="form-check form-check-inline">
+  <input class="form-check-input" type="checkbox" id="carbs" value="option1">
+  <label class="form-check-label" for="carbs">High Carbs</label>
+</div>
+<div class="form-check form-check-inline">
+  <input class="form-check-input" type="checkbox" id="proteins" value="option2">
+  <label class="form-check-label" for="proteins">High Protiens</label>
+</div>
+<div class="form-check form-check-inline">
+  <input class="form-check-input" type="checkbox" id="fats" value="option3">
+  <label class="form-check-label" for="fats">High Fats</label>
+</div>
+          <div class="col-1">
+      <button type="submit" class="btn bg-mpink mb-2 white-text">Submit</button>
+    </div>
+  </div>
+</form>
+        </div>
+
 
         <!-- JavaScript !-->
          <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
