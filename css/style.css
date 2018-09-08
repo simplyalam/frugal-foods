@@ -24,6 +24,53 @@
     letter-spacing: 2px;
 }
 
+@media (min-width: 650px) and (max-width: 1180px) {
+    #banner-h1 {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 50px;
+    font-weight: 600;
+}
+
+#banner-h2 {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+}
+
+@media (max-width: 649px) {
+    #banner-h1 {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 30px;
+    font-weight: 600;
+        overflow: hidden;
+}
+
+#banner-h2 {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 9px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    overflow: hidden;
+}
+}
 #banner-img { 
     width: 100%;
     height: auto;
@@ -33,4 +80,17 @@
 /* Color */
 .bg-mpink {
     background-color: #ee6e73 !important;
+}
+
+.bg-mpblue {
+    background-color: #039BE5 !important;
+}
+
+.bg-mgreen {
+    background-color: #14B673 !important;
+}
+
+.white-text, .white-text:hover {
+    color: white;
+    text-decoration: none;
 }
