@@ -1,0 +1,36 @@
+#banner-container {
+    position: relative;
+}
+
+#banner-h1 {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 100px;
+    font-weight: 600;
+}
+
+#banner-h2 {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 40px;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+
+#banner-img { 
+    width: 100%;
+    height: auto;
+    opacity: 0.8;
+}
+
+/* Color */
+
+.bg-mpink {
+    background-color: #ee6e73 !important;
+}

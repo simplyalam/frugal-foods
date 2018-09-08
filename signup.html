@@ -1,0 +1,201 @@
+       <!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="application-name" content="fugal">
+        <meta name="author" content="Albert Lam, Carlos Guerra, Emily Pho">
+        <meta name="keywords" content="medhacks 2018, medhacks, food tracker, food, food app, diet generator, generator, food budget">
+        <meta name="description" content="A service that allows people to generate a diet that complements their budget and nutritional goals.">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+        <title>Sign Up</title>
+        
+        <!-- Icons !-->
+        <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/solid.js" integrity="sha384-GJiigN/ef2B3HMj0haY+eMmG4EIIrhWgGJ2Rv0IaWnNdWdbWPr1sRLkGz7xfjOFw" crossorigin="anonymous"></script>
+        <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/fontawesome.js" integrity="sha384-2OfHGv4zQZxcNK+oL8TR9pA+ADXtUODqGpIRy1zOgioC4X3+2vbOAp5Qv7uHM4Z8" crossorigin="anonymous"></script>
+        
+         <!-- Font !-->
+        <link rel="stylesheet" type="text/css" href="fonts/font.css">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600" rel="stylesheet">
+
+        <!-- Style !-->
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link rel="stylesheet" type="text/css" href="css/materialize.min.css" media="screen, projection">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    </head>
+    <body>
+        <!-- Navigation Menu !-->
+        
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand text-center" href="index.html">Fugal</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+        </nav>
+        
+        <!-- Sign Up !-->
+        <div class="container">
+            <h1 class="display-4 text-center mt-5">Sign Up</h1>
+            <h2 class="lead text-center">Take control of your health and how much you spend on food.</h2>
+        <div class="row">
+    <form class="col s5">
+      <div class="row">
+        <div class="input-field col s12">
+          <input placeholder="Username" id="username" type="text" class="validate">
+        </div>
+      </div>
+      <div class="row">
+        <div class="input-field col s12">
+          <input placeholder="First Name" id="f_name" type="text" class="validate">
+        </div>
+         <div class="input-field col s12">
+          <input placeholder="Last Name" id="l_name" type="text" class="validate">
+        </div>
+      </div>
+      <div class="row">
+        <div class="input-field col s12">
+          <input placeholder="Email" id="email" type="email" class="validate">
+        </div>
+      </div>
+        <div class="row">
+        <div class="input-field col s12">
+        <input id="dob" type="date" class="validate">
+        <label for="dob">Date of Birth</label>
+        </div>
+      </div>
+                <div class="row">
+        <div class="input-field col s6">
+        <input id="weight" type="number" min="1" class="validate">
+        <label for="weight">Weight (lbs)</label>
+        </div>
+        <div class="input-field col s6">
+        <input id="height" type="number" min="1" class="validate">
+        <label for="height">Height (in)</label>
+        </div>
+        </div>
+        
+        <div class="row">
+            <div class="col">     
+                <label for="exercise">How often do you exercise?</label>
+            <p>
+                <label>
+                    <input type="radio" id="minimal" name="exercise" />
+                    <span>Minimal (0-1)</span>
+                  </label>
+                </p>
+                <p>
+                  <label>
+                    <input type="radio" id="average" name="exercise" />
+                    <span>Average (2-4)</span>
+                  </label>
+                </p>
+                <p>
+                  <label>
+                    <input type="radio" id="athlete" name="exercise" />
+                    <span>Athlete (5-7)</span>
+                  </label>
+                </p>
+    </div>
+            <div class="col">
+            <div class="form-group">
+    <label for="allergens">Do you have any food allergies?</label>
+    <select class="form-control" id="allergens">
+      <option>No</option>
+      <option>Nuts</option>
+      <option>Milk</option>
+    </select>
+  </div>
+
+        <input id="budget" type="number" min="1" class="validate">
+        <label for="budget">Budget</label>
+                </div>
+            </div>
+        
+        <div class="col">
+        <div class="form-group">
+    <label for="state">Where do you live?</label>
+    <select class="form-control" id="state">
+      <option>Alabama</option>
+      <option>Alaska</option>
+      <option>Arizona</option>
+    </select>
+  </div>
+        </div>
+        <div class="container text-center">
+        <a class="waves-effect waves-light btn bg-mpink mt-5 mb-5"><input class="white-text" type="submit" name="submit"></a>
+</div>
+    </form>
+        </div>      
+            </div>
+        
+       <!-- Footer -->
+<footer class="page-footer font-small bg-mpink">
+
+    <!-- Footer Links -->
+    <div class="container">
+
+      <!-- Grid row-->
+      <div class="row text-center d-flex justify-content-center pt-5 mb-3">
+
+        <!-- Grid column -->
+        <div class="col-md-2 mb-3">
+          <h6 class="text-uppercase font-weight-bold">
+            <a href="#!" class="white-text">About Us</a>
+          </h6>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-2 mb-3">
+          <h6 class="text-uppercase font-weight-bold">
+            <a href="#!" class="white-text">Resources</a>
+          </h6>
+        </div>
+        <!-- Grid column -->
+          
+        <!-- Grid column -->
+        <div class="col-md-2 mb-3">
+          <h6 class="text-uppercase font-weight-bold">
+            <a href="#!" class="white-text">Help</a>
+          </h6>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-2 mb-3">
+          <h6 class="text-uppercase font-weight-bold">
+            <a href="#!" class="white-text">Contact</a>
+          </h6>
+        </div>
+        <!-- Grid column -->
+
+      </div>
+      <!-- Grid row-->
+      <hr class="rgba-white-light" style="margin: 0 15%;">
+
+      <!-- Grid row-->
+      <div class="row d-flex text-center justify-content-center mb-md-0 mb-4">
+
+        <!-- Grid column -->
+        <div class="col-md-8 col-12 mt-5 mb-5">
+            <h5 class="white-text">Fugal</h5>
+          <p style="line-height: 1.7rem">The Fugal team aims to empower you to make your nutritional decisions accessible and possible.</p>
+        </div>
+        <!-- Grid column -->
+
+      </div>
+      <!-- Grid row-->
+      <hr class="clearfix d-md-none rgba-white-light" style="margin: 10% 15% 5%;">
+    </div>
+   &nbsp;
+  </footer>
+  <!-- Footer -->
+
+            
+        <!-- JavaScript !-->
+        <script src="js/materialize.min.js"></script>
+         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    </body>
+</html>
