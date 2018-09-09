@@ -37,66 +37,62 @@
         <form>
     <div class="form-group">
             <label for="f_name">First Name</label>
-    <input type="text" class="form-control" id="f_name" aria-describedby="f_name" placeholder="Enter your first name">
+    <input type="text" class="form-control" name="f_name" id="f_name" aria-describedby="f_name" placeholder="Enter your first name">
     </div>
      <div class="form-group">
             <label for="l_name">Last Name</label>
-    <input type="text" class="form-control" id="l_name" aria-describedby="l_name" placeholder="Enter your last name">
+    <input type="text" class="form-control" name="l_name" id="l_name" aria-describedby="l_name" placeholder="Enter your last name">
     </div>
   <div class="form-group">
     <label for="email">Email Address</label>
-    <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Enter email">
+    <input type="email" class="form-control" name="email" id="email" aria-describedby="emailHelp" placeholder="Enter email">
   </div>
   <div class="form-group">
     <label for="pass">Password</label>
-    <input type="password" class="form-control" id="pass" placeholder="Password">
-  </div>
-    <div class="form-group">
-    <label for="pass">Password</label>
-    <input type="password" class="form-control" id="pass" placeholder="Password">
+    <input type="password" class="form-control" name="pass" id="pass" placeholder="Password">
   </div>
   <div class="form-group">
     <label for="dob">Date of Birth</label>
-    <input type="date" class="form-control" id="dob">
+    <input type="date" class="form-control" name="dob" id="dob">
   </div>
   <div class="form-group">
     <label for="allergies">What food allergies do you have?</label>
-    <select multiple class="form-control" id="allergies">
-      <option>None</option>
-      <option>Eggs</option>
-      <option>Peanuts</option>
-      <option>Milk</option>
+    <select multiple class="form-control" name="allergies" id="allergies">
+      <option value="None">None</option>
+      <option value="Eggs">Eggs</option>
+      <option value="Peanuts">Peanuts</option>
+      <option value="Milk">Milk</option>
     </select>
   </div>
    <div class="form-group">
     <label for="state">State</label>
-    <select class="form-control" id="state">
-      <option>Alabama</option>
-      <option>New York</option>
-      <option>Washington</option>
-      <option>Virginia</option>
-      <option>California</option>
+    <select class="form-control" name="state" id="state">
+      <option value="Alabama">Alabama</option>
+      <option value="New York">New York</option>
+      <option value="Washington">Washington</option>
+      <option value="Virginia">Virginia</option>
+      <option value="California">California</option>
     </select>
   </div>
   <div class="form-group">
     <label for="weight">Weight (lbs)</label>
-    <input type="number" min="1" class="form-control" id="weight" placeholder="Weight">
+    <input type="number" min="1" class="form-control" name="weight" id="weight" placeholder="Weight">
   </div>
   <div class="form-group">
     <label for="height">Height (in))</label>
-    <input type="number" min="1" class="form-control" id="height" placeholder="Height">
+    <input type="number" min="1" class="form-control" name="height" id="height" placeholder="Height">
   </div>
   <div class="form-group">
     <label for="fit">How often do you workout?</label>
-    <select multiple class="form-control" id="fit">
-      <option>0-1 a week</option>
-      <option>2-3 a week</option>
-      <option>4-7 a week</option>
+    <select multiple class="form-control" name="fit" id="fit">
+      <option value="1">0-1 a week</option>
+      <option value="2">2-3 a week</option>
+      <option value="3">4-7 a week</option>
     </select>
   </div>
 <div class="form-group">
     <label for="budget">How much do you want to spend on food per week?</label>
-    <input type="number" min="1" class="form-control" id="budget" placeholder="Budget">
+    <input type="number" min="1" class="form-control" name="budget" id="budget" placeholder="Budget">
   </div>
             <div class="text-center">
   <button type="submit" class="btn bg-mpink mt-5 mb-5"><a class="white-text" href="profile.html">Update</a></button>
